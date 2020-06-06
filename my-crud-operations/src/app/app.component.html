@@ -1,1 +1,12 @@
-<h1> Welcome to my trial app </h1>
+<div style="text-align:center;">
+<h1><small> Welcome to my trial app {{title}} </small></h1>
+ <br/>
+</div>
+<br/>
+
+<nav>
+	<a routerLink="/departments" routerLinkActive="active">Departments</a><br/>
+	<a routerLink="/employees" routerLinkActive="active">Employees</a>
+</nav>
+<hr/>
+<router-outlet></router-outlet>
